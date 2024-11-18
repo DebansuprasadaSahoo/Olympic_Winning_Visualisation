@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\deban\OneDrive\Documents\OLYMPICS\athlete_events.csv")
+df = pd.read_csv("athlete_events.csv")
 
 # Clean the data: Strip any extra spaces from column names
 df.columns = df.columns.str.strip()
